@@ -17,7 +17,11 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "react-app",
+    "rules": {
+      "react/self-closing-comp":"warn",
+      "no-unused-vars":"error"
+    }
   },
   "browserslist": {
     "production": [
